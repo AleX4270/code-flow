@@ -1,0 +1,58 @@
+# .NET
+# Binaries
+backend/bin/
+backend/obj/
+
+# Build results
+backend/[Dd]ebug/
+backend/[Dd]ebugPublic/
+backend/[Rr]elease/
+backend/[Rr]eleases/
+backend/x64/
+backend/x86/
+backend/[Aa][Rr][Mm]/
+backend/[Aa][Rr][Mm]64/
+backend/bld/
+backend/[Bb]in/
+backend/[Oo]bj/
+backend/[Ll]og/
+backend/[Ll]ogs/
+
+# Visual Studio files
+backend/*.vscode/
+backend/*.vscodeignore
+backend/.vs/
+
+# Resharper files
+backend/_ReSharper*/
+backend/*.[Rr]e[Ss]harper
+backend/*.DotSettings.user
+
+# Rider files
+backend/.idea/
+backend/*.sln.iml
+
+# User-specific files
+backend/*.suo
+backend/*.user
+backend/*.userosscache
+backend/*.sln.docstates
+
+# .NET Core
+backend/project.lock.json
+backend/project.fragment.lock.json
+backend/artifacts/
+
+# .NET Core - VS Code
+backend/.vscode/
+backend/*.dll
+backend/*.exe
+backend/*.pdb
+backend/*.zip
+backend/*.xml
+backend/*.json
+
+# Angular 17
+frontend/node_modules
+frontend/dist
+frontend/npm-debug.log
