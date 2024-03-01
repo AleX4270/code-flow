@@ -1,66 +1,99 @@
-# .NET
-# Binaries
-backend/bin/
-backend/obj/
+# Pliki systemowe
+*.DS_Store
+Thumbs.db
 
-# Build results
-backend/[Dd]ebug/
-backend/[Dd]ebugPublic/
-backend/[Rr]elease/
-backend/[Rr]eleases/
-backend/x64/
-backend/x86/
-backend/[Aa][Rr][Mm]/
-backend/[Aa][Rr][Mm]64/
-backend/bld/
-backend/[Bb]in/
-backend/[Oo]bj/
-backend/[Ll]og/
-backend/[Ll]ogs/
+# Katalogi IDE i edytory
+## Visual Studio Code
+.vscode/
+## Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.pdb
+*.ilk
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.sdf
+*.idb
+*.opendb
+*.opensdf
+*.tlog
+*.log
+*.dll
+*.exe
+*.obj
+*.sqlite
+*.jfm
+ipch/
+obj/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+[Aa]pp[Pp]ublish/
+[Bb]uild[Ll]og.*
+*.[Oo]bj
+*.[Pp]db
+*.[Cc]ache
+*.[Cc]sproj.user
+*.[Cc]sproj.*.user
+*.[Dd]ot[Ss]ettings.user
+*.docstates
 
-# Visual Studio files
-backend/*.vscode/
-backend/*.vscodeignore
-backend/.vs/
+# Pliki specyficzne dla ASP.NET
+wwwroot/
+*.rptproj
+*.config
+*.rdl.data
+*- [Bb]ackup.*
+*.mdf
+*.ldf
+*.ndf
 
-# Resharper files
-backend/_ReSharper*/
-backend/*.[Rr]e[Ss]harper
-backend/*.DotSettings.user
+# Node (dla Angulara)
+/node_modules
+/dist
+/tmp
+/out-tsc
 
-# Rider files
-backend/.idea/
-backend/*.sln.iml
+# Pliki specyficzne dla Angulara
+.angular
+.angular-cache
 
-# User-specific files
-backend/*.suo
-backend/*.user
-backend/*.userosscache
-backend/*.sln.docstates
+# Pliki tymczasowe
+*.log
+*.tmp
+*.temp
+*.tst
 
-# .NET Core
-backend/project.lock.json
-backend/project.fragment.lock.json
-backend/artifacts/
-
-# .NET Core - VS Code
-backend/.vscode/
-backend/*.dll
-backend/*.exe
-backend/*.pdb
-backend/*.zip
-backend/*.xml
-backend/*.json
-
-# Angular 17
-frontend/node_modules
-frontend/dist
-frontend/npm-debug.log
-
-# Remove solution file
-100commits.sln
-
-# Remove IDEA files
-.idea/
-.idea.100commits.dir/
-.idea
+# Inne pliki i foldery
+/.sass-cache
+/.idea
+*.iml
+*.ipr
+*.iws
+/.vscode/
+.DS_Store
+/.azure
+/build/
+/*.tgz
+*.sw?
+.*.sw?
+.e2e/
+*.bak
+*.aux
+*.lof
+*.lot
+*.out
+*.toc
+*.nav
+*.snm
+*.sbl
+*.synctex.gz
