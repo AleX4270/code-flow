@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "lUi4in3JbuMKzqGM1AtHZD2DBaoH6GY+LualYcKV8PDMg+LrXVF9PVaq5FAmeFt5YHGjhkSyyfNxm7TO6v1sNA==",
+  "success": true,
+  "projectFilePath": "/Users/alex/Documents/Prywatne/Projects/WebDev/100commits/backend/backend.csproj",
+  "expectedPackageFiles": [
+    "/Users/alex/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/alex/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/alex/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/Users/alex/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/Users/alex/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/Users/alex/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
