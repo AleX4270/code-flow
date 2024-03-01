@@ -56,3 +56,11 @@ backend/*.json
 frontend/node_modules
 frontend/dist
 frontend/npm-debug.log
+
+# Remove solution file
+100commits.sln
+
+# Remove IDEA files
+.idea/
+.idea.100commits.dir/
+.idea
