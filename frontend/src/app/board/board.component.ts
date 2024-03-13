@@ -9,10 +9,9 @@ import { LettersData, WordData } from "../shared/types/word.types";
   styleUrl: './board.component.scss'
 })
 export class BoardComponent {
-    public lettersData!: LettersData;
-    public wordData!: WordData;
-    constructor()
-    {
+    public lettersData: LettersData = {} as LettersData;
+    public wordData: WordData = {} as WordData;
+    constructor() {
         this.lettersData.letters = ['w', 'o', 'r', 'd'];
         this.wordData.word = 'word';
     }
